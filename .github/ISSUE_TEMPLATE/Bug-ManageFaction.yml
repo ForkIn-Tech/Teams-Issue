@@ -5,12 +5,12 @@ labels:
   - bug
   - ' triage'
 body:
-  - type: input
-    id: pseudo
-    attributes:
-      label: Pseudo (Pseudo#0000) => Identifiant (365844280209702913)
-    validations:
-      required: true
+  # - type: input
+  #   id: pseudo
+  #   attributes:
+  #     label: Pseudo (Pseudo#0000) => Identifiant (365844280209702913)
+  #   validations:
+  #     required: true
   - type: input
     id: server-id
     attributes:
