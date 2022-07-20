@@ -1,0 +1,20 @@
+name: Suggestions
+description: Faire une suggestion
+title: '[Suggestion]: '
+labels:
+  - 'suggest'
+  - 'triage'
+body:
+  - type: input
+    id: pseudo
+    attributes:
+      label: Pseudo (Pseudo#0000)
+    validations:
+      required: true
+  - type: textarea
+    id: suggest
+    attributes:
+      label: Ecrivez votre suggestion
+      description: Détaillez votre suggestion
+    validations:
+      required: true
