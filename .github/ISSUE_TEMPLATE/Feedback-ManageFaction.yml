@@ -1,0 +1,26 @@
+name: Feedback
+description: Faire un retour sur une feature
+title: '[Feedback]: '
+labels:
+  - 'feedback'
+  - 'triage'
+body:
+  - type: input
+    id: pseudo
+    attributes:
+      label: Pseudo (Pseudo#0000)
+    validations:
+      required: true
+  - type: input
+    id: feature-name
+    attributes:
+      label: Nom de la feature
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Retour sur la Feature
+      description: Qu'est ce qui pourrait être amélioré ?
+    validations:
+      required: true
