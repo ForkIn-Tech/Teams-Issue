@@ -7,7 +7,30 @@ labels:
 body:
   - type: input
     id: pseudo
-    atributes:
-      label: Pseudo
+    attributes:
+      label: Pseudo (Pseudo#0000) => Identifiant (365844280209702913)
     validations:
       required: true
+  - type: input
+    id: server-id
+    attributes:
+      label: Server Id
+    validation:
+      required: true
+  - type: input
+    id: command-name
+    attributes:
+      label: Commande
+      description: Nom de la commande utilisée
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Que s'est-il passé ?
+      description: Dites-nous ce qui est arrivé
+    validations:
+      required: true
+  - type: textarea
+    id: what-should-happened
+    attributes:
+      label: "Qu'aurait-il dû arriver ?"
+      description: Dites-nous ce qui aurait dû arriver
