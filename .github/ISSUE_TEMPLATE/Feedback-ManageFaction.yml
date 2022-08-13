@@ -2,8 +2,8 @@ name: Feedback
 description: Faire un retour sur une feature
 title: '[Feedback]: '
 labels:
-  - 'feedback'
-  - 'triage'
+  - 'Feedback'
+  - 'Triage'
 body:
   - type: input
     id: pseudo
