@@ -2,8 +2,8 @@ name: Bug report
 description: Report un bug
 title: '[Bug]: '
 labels:
-  - 'bug'
-  - 'triage'
+  - 'Bug'
+  - 'Triage'
 body:
   - type: input
     id: pseudo
