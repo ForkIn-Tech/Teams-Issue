@@ -2,8 +2,8 @@ name: Suggestions
 description: Faire une suggestion
 title: '[Suggestion]: '
 labels:
-  - 'suggest'
-  - 'triage'
+  - 'Suggest'
+  - 'Triage'
 body:
   - type: input
     id: pseudo
